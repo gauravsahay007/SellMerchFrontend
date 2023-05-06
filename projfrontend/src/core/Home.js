@@ -54,47 +54,44 @@ export default function Home() {
     <Base title='Home Page' description='Welcome to merch store'>
       {successMessage()}
       {errorMessage()}
-      <div className="block">
-      <div className="grid-collection-product">
+       <div className="grid-collection-product">
        
-       {products.map((prod,index)=>{
-           return (
-               <div key={index}  className="product">
-                   
-                 
-                 <div className="image-container">
-                 <Imagehelper prod={prod}/>
-                 
-                 </div>
-                <div className="container">
-                <div className="name">
-                       <h1> {prod.name}</h1>
-               
-                    </div>
-
-                    <div className="cols-product">
+                {products.map((prod,index)=>{
+                    return (
+                        <div key={index}  className="product">
+                            
+                          
+                          <div className="image-container">
+                          <Imagehelper prod={prod}/>
+                          
+                          </div>
+                         <div className="container">
+                         <div className="name">
+                                <h1> {prod.name}</h1>
                         
+                             </div>
 
-                        <button className='update-btn-home' onClick={()=>addItemToCart(prod,()=>{
-                         setSuccess(true)
-                         setInterval(()=>{
-                           setSuccess(false)
-                         },2000)
-                        })}  >Add To Cart</button>
-                         
-                       </div>
+                             <div className="cols-product">
+                                 
  
-                 </div>   
-                    
-              
-                
-               </div>
-              
-           )
-       })}
-   </div>
-      </div>
-       
+                                 <button className='update-btn-home' onClick={()=>addItemToCart(prod,()=>{
+                                  setSuccess(true)
+                                  setInterval(()=>{
+                                    setSuccess(false)
+                                  },2000)
+                                 })}  >Add To Cart</button>
+                                  
+                                </div>
+          
+                          </div>   
+                             
+                       
+                         
+                        </div>
+                       
+                    )
+                })}
+            </div>
        
     </Base>
   )

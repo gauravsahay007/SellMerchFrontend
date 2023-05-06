@@ -13,11 +13,7 @@
     
 }
 
-.name{
-   
-    width: 300px;
-    margin-left: 10px;
-}
+
 
 .cols{
     display: flex;
@@ -27,17 +23,7 @@
     
 }
  
-.container{
-    
-    border: 2px solid black;
-    width: 300px;
-    display: block;
-    margin: auto;
-    padding: 20px;
-    font-size: 12px;
-    border-radius: 0 0 5px 5px;
-    background-color: #fff;
-}
+
 
 .update-btn{
     background-color: #22CB5C;

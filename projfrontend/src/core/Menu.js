@@ -12,11 +12,11 @@ const Menu = () => {
     
     return (
         
-        <Fragment className="container-menu"> <img src={logo} className="logo-img" alt=""/>  <Fragment> <header>
-        <Fragment className="logo">
+        <div className="container-menu"> <img src={logo} className="logo-img" alt=""/>  <div> <header>
+        <div className="logo">
             <img src="./Icons/Logo.svg" alt=""/>
     
-        </Fragment>
+        </div>
         
         <nav>
             <ul className="nav-header">
@@ -37,7 +37,7 @@ const Menu = () => {
                 )}
 
                 {isAuthenticated() && (
-                    <Fragment><li className="nav-links"> <span onClick={()=>{
+                    <Fragment><li className="li-items"> <span className="nav-links" onClick={()=>{
                        signout(()=>{
                         navigate("/")
                        })
@@ -47,7 +47,7 @@ const Menu = () => {
             </ul>
         </nav>
     </header>
-    </Fragment></Fragment>
+    </div></div>
        
     )
 }

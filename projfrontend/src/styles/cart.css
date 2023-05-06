@@ -7,6 +7,18 @@
         justify-items: center; 
         justify-content: center;
     }
+    .cart-product{
+        width: 150px;
+       
+       background-color: #ffffff;
+       height: fit-content;
+        border: 2px solid black;
+        padding: 5px;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
   }
 
   @media (min-width: 900px) {
@@ -17,6 +29,17 @@
         padding: 20px;
         background-color: #ffffff;
         justify-items: center; 
+        
+    }
+
+    .cart-product{
+        width: fit-content;
+       
+       background-color: #ffffff;
+       height: fit-content;
+        border: 2px solid black;
+        padding: 5px;
+        border-radius: 10px;
         
     }
     
