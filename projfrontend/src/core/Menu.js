@@ -12,11 +12,11 @@ const Menu = () => {
     
     return (
         
-        <div className="container-menu"> <img src={logo} className="logo-img" alt=""/>  <div> <header>
-        <div className="logo">
+        <Fragment className="container-menu"> <img src={logo} className="logo-img" alt=""/>  <Fragment> <header>
+        <Fragment className="logo">
             <img src="./Icons/Logo.svg" alt=""/>
     
-        </div>
+        </Fragment>
         
         <nav>
             <ul className="nav-header">
@@ -47,7 +47,7 @@ const Menu = () => {
             </ul>
         </nav>
     </header>
-    </div></div>
+    </Fragment></Fragment>
        
     )
 }

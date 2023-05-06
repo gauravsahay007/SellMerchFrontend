@@ -41,3 +41,31 @@
     border-radius: 5px;
     color: white;
 }
+
+@media (max-width: 900px) {
+    .container-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .nav-header{
+    
+        display: flex;
+        flex-direction: column;
+       
+        gap: 30px;
+        margin: 0px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+    }
+
+    .logo-img{
+       display: block;
+       margin: auto;
+        height: 40px;
+        width: 200px;
+    }
+    
+  }
