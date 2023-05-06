@@ -1,0 +1,32 @@
+
+
+.admin-head{
+    display: flex;
+    margin-top: 20px;
+    background-color: #120E43;
+
+    padding-left: 10px;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+ 
+
+}
+.admin-head h2{
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.admin-head p{
+    font-size: 20px;
+    position: relative;
+    top: 16px;
+    left: 10px;
+}
+
+form button:hover{
+    background-color: #22CB5C;
+}

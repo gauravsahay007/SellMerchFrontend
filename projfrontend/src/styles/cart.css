@@ -1,0 +1,28 @@
+.grid-collection-cart{
+   
+    display: grid;
+    grid-template-columns: minmax(10px,1fr)  minmax(10px,1fr)  minmax(10px,1fr); 
+    row-gap: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    justify-items: center;
+}
+
+.delete-btn-cart{
+    width: 120px;
+    padding: 0px;
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+    background-color: #FF3300;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.delete-btn-cart:hover{
+    width: 125px;
+    height: 45px;
+}
