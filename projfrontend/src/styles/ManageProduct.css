@@ -10,7 +10,7 @@
         height: 120;
         border: 2px solid black;
         margin: auto;
-     
+        margin-right: 5px;
         padding-top: 10px;
         padding-bottom: 10px;
         
@@ -29,6 +29,7 @@
         border-radius: 10px;
         margin-top: 20px;
         margin-bottom: 20px;
+        padding-right: 7.5px;
         
     }
     
