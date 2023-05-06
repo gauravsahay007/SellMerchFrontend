@@ -40,7 +40,7 @@ const deleteMessage=()=>{
         <Base title="My Cart" description="Ready to checkout">
             {deleteMessage()}
           <div className="grid-collection-cart">
-          {products.length && products.map((prod,index)=>{
+          { products?.map((prod,index)=>{
                     return (
                         <div key={index} >
                             
