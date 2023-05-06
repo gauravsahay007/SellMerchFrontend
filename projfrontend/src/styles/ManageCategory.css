@@ -4,14 +4,30 @@
     margin: auto;
     
 }
-
-
-.grid-collection{
-    display: grid;
-    grid-template-columns:  minmax(10px,1fr)  minmax(10px,1fr)  minmax(10px,1fr); 
-    row-gap: 30px;
+@media (max-width: 900px) {
+    .grid-collection{
+        display: flex;
+        flex-direction: column;
+        
+    }
     
-}
+    
+  }
+
+  @media (min-width: 900px) {
+    .grid-collection{
+        display: grid;
+        grid-template-columns:  minmax(10px,1fr)  minmax(10px,1fr)  minmax(10px,1fr); 
+        row-gap: 30px;
+        
+    }
+    
+    
+    
+  }
+
+
+
 
 
 
