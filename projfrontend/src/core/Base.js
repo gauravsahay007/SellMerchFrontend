@@ -6,7 +6,7 @@ export default function Base({title="My title",description="My description",chil
     <div>
         <Menu/>
         <div className='admin-head'> <h2>{title}</h2>
-        <p>{description}</p></div>
+        <p className='pp'>{description}</p></div>
         <div>
 
             <div className="content">
